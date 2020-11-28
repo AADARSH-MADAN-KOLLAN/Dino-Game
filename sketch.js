@@ -44,7 +44,7 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
 
-  trex = createSprite(windowWidth/2-550, 180, 20, 50);
+  trex = createSprite(windowWidth+10, windowHeigt/2, 20, 50);
   trex.addAnimation("running", trex_running);
   trex.addAnimation("collided", trex_collided);
   trex.scale = 0.5;
