@@ -86,7 +86,7 @@ function draw() {
   if (gameState === PLAY) {
     
     score = score + Math.round(getFrameRate() / 60);
-    if(score % 100 === 1 && score >= 10){
+    if(score % 100 === 1 && score >= 0){
       check.play();
     }
 
